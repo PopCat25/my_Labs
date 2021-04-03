@@ -1,0 +1,10 @@
+C:\Users\MyPC\source\repos\2 Семестр 3 лабораторная\2 Семестр 3 лабораторная\bin\Debug\2 Семестр 3 лабораторная.exe.config
+C:\Users\MyPC\source\repos\2 Семестр 3 лабораторная\2 Семестр 3 лабораторная\bin\Debug\2 Семестр 3 лабораторная.exe
+C:\Users\MyPC\source\repos\2 Семестр 3 лабораторная\2 Семестр 3 лабораторная\bin\Debug\2 Семестр 3 лабораторная.pdb
+C:\Users\MyPC\source\repos\2 Семестр 3 лабораторная\2 Семестр 3 лабораторная\obj\Debug\2 Семестр 3 лабораторная.csprojAssemblyReference.cache
+C:\Users\MyPC\source\repos\2 Семестр 3 лабораторная\2 Семестр 3 лабораторная\obj\Debug\_2_Семестр_3_лабораторная.Properties.Resources.resources
+C:\Users\MyPC\source\repos\2 Семестр 3 лабораторная\2 Семестр 3 лабораторная\obj\Debug\2 Семестр 3 лабораторная.csproj.GenerateResource.cache
+C:\Users\MyPC\source\repos\2 Семестр 3 лабораторная\2 Семестр 3 лабораторная\obj\Debug\2 Семестр 3 лабораторная.csproj.CoreCompileInputs.cache
+C:\Users\MyPC\source\repos\2 Семестр 3 лабораторная\2 Семестр 3 лабораторная\obj\Debug\2 Семестр 3 лабораторная.exe
+C:\Users\MyPC\source\repos\2 Семестр 3 лабораторная\2 Семестр 3 лабораторная\obj\Debug\2 Семестр 3 лабораторная.pdb
+C:\Users\MyPC\source\repos\2 Семестр 3 лабораторная\2 Семестр 3 лабораторная\obj\Debug\_2_Семестр_3_лабораторная.Form1.resources
