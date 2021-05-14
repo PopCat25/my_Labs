@@ -106,7 +106,5 @@ namespace _2_семестр_2_Лабораторная
                 label4.Visible = true;
             }
         }
-
-
     }
 }

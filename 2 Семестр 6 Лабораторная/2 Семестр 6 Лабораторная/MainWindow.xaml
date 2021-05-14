@@ -5,6 +5,25 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:_2_Семестр_6_Лабораторная"
         mc:Ignorable="d"
-        Title="MainWindow" Height="450" Width="800">
-    <Grid/>
+        Title="Алексей Линский 1101б 13 вариант" Height="468.4" Width="800">
+    <Grid Margin="0,0,-0.4,4" >
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="35*"/>
+            <ColumnDefinition Width="362*"/>
+        </Grid.ColumnDefinitions>
+        <Button Content="Выбрать БД" HorizontalAlignment="Left" Margin="2,37,0,0" VerticalAlignment="Top" Width="102" Height="19" Click="Button_Click" Grid.ColumnSpan="2" />
+        <Button Content="Добавить запись" HorizontalAlignment="Left" Margin="2,60,0,0" VerticalAlignment="Top" Width="102" RenderTransformOrigin="-0.637,-0.323" Height="19" Click="Button_Click_1" Grid.ColumnSpan="2"/>
+        <Button Content="Обновить" HorizontalAlignment="Left" Margin="2,85,0,0" VerticalAlignment="Top" Width="102" Height="19" Grid.ColumnSpan="2" Click="Button_Click_2"/>
+        <Button Content="Button" HorizontalAlignment="Left" Margin="2,110,0,0" VerticalAlignment="Top" Width="102" Grid.ColumnSpan="2"/>
+        <Button Content="Button" HorizontalAlignment="Left" Margin="2,135,0,0" VerticalAlignment="Top" Width="102" RenderTransformOrigin="0.5,0.5" Grid.ColumnSpan="2"/>
+        <DataGrid x:Name="myGrid" HorizontalAlignment="Left" Height="381" Margin="48.2,20,0,0" VerticalAlignment="Top" Width="644" RenderTransformOrigin="0.5,0.5" Grid.Column="1" IsReadOnly="True" CanUserReorderColumns="False" CanUserResizeColumns="False" CanUserSortColumns="False">
+            <DataGrid.ContextMenu>
+                <ContextMenu>
+                    <MenuItem x:Name="menu_item_delete" Header="Удалить" Click = "Delete_DataGrid" />
+                    <MenuItem x:Name="menu_item_change" Header="Изменить" Click ="Change_DataGrid" />
+                </ContextMenu>
+            </DataGrid.ContextMenu>
+   
+         </DataGrid>
+    </Grid>
 </Window>
