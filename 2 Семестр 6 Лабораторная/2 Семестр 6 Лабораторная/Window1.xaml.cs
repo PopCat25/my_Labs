@@ -11,6 +11,8 @@ using System.Windows.Input;
 using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Shapes;
+using Microsoft.Win32;
+using System.IO;
 
 namespace _2_Семестр_6_Лабораторная
 {
@@ -43,7 +45,6 @@ namespace _2_Семестр_6_Лабораторная
             {
                 CheckGood_send_number.Visibility = Visibility.Visible;
                 CheckBad_send_number.Visibility = Visibility.Hidden;
-
             }
             else
             {
@@ -114,18 +115,34 @@ namespace _2_Семестр_6_Лабораторная
             }
         } 
 
-        public static (string, bool) return_data_insert(out string result_str, out bool flag )
+        public static (string, bool) return_data_insert(in OpenFileDialog opf ,out string result_str, out bool flag )
         {
             Window1 window = new Window1();
             window.ShowDialog();
             flag = false;
+
             if (window.CheckGood_send_number.Visibility == Visibility.Visible && window.CheckGood_send_weight.Visibility == Visibility.Visible && window.CheckGood_cost.Visibility == Visibility.Visible && window.CheckGood_sending_date.Visibility == Visibility.Visible && window.CheckGood_deliv_point.Visibility == Visibility.Visible)
             { 
                 flag = true;
                 window.sending_date.Text = DateTime.Parse(window.sending_date.Text).ToShortDateString(); //приводит ввод пользователя к стандарту облегчая поиск
             }
-            result_str = $"{window.send_number.Text}&{window.send_weight.Text}&{window.cost.Text}&{window.sending_date.Text}&{window.deliv_point.Text}{Environment.NewLine}";
+            result_str = $"{window.send_number.Text}&{window.send_weight.Text}&{window.cost.Text}&{window.sending_date.Text}&{window.deliv_point.Text}&{set_rec_id(in opf)}{Environment.NewLine}";
             return (result_str,flag);
+        }
+
+        private static string set_rec_id (in OpenFileDialog opf)
+        {
+            string[] mass = File.ReadAllLines(opf.FileName);
+
+            if(mass.Length == 0)
+            {
+                return "0";
+            }
+            else
+            {
+                string[] splitted_cell = mass[mass.Length - 1].Split('&');
+                return (int.Parse(splitted_cell[splitted_cell.Length - 1]) + 1).ToString();
+            }
         }
     }
 }

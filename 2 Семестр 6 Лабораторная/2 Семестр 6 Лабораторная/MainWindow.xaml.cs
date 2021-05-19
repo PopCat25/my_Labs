@@ -72,6 +72,34 @@ namespace _2_Семестр_6_Лабораторная
             }
         }
 
+        //Обработка нажатия кнопки "Поиск"
+        private void Button_Click_3(object sender, RoutedEventArgs e)
+        {
+            try
+            {
+                Work_witch_data.search_recs(in opf,ref myGrid);
+            }
+            catch(Exception err)
+            {
+                MessageBox.Show(err.Message);
+            }
+        }
+
+
+        //Обработка нажатия "Цена посылок"
+        private void Button_Click_4(object sender, RoutedEventArgs e)
+        {
+            try
+            {
+                Work_witch_data.calc_cost(in opf);
+            }
+            catch(Exception err)
+            {
+                MessageBox.Show(err.Message);
+            }
+
+        }
+
 
         //Обработка нажатия в контектсном меню "Удалить"
         private void Delete_DataGrid(object sender, RoutedEventArgs e)
@@ -108,7 +136,6 @@ namespace _2_Семестр_6_Лабораторная
             }
 
         }
-
     }
 
     public static class Work_witch_data
@@ -133,6 +160,7 @@ namespace _2_Семестр_6_Лабораторная
                         record.cost = mass_for_split[2];
                         record.sending_date = mass_for_split[3];
                         record.deliv_point = mass_for_split[4];
+                        record.id = mass_for_split[5];
                         rec_s.Add(record);
                     }
                     myGrid.ItemsSource = null;
@@ -150,7 +178,7 @@ namespace _2_Семестр_6_Лабораторная
         {
             try
             {
-                Window1.return_data_insert(out string result_str, out  bool  flag );
+                Window1.return_data_insert(in opf ,out string result_str, out  bool  flag ); 
                 if ( flag == true)
                 {
                     File.AppendAllText(opf.FileName, result_str);
@@ -165,17 +193,20 @@ namespace _2_Семестр_6_Лабораторная
             }
         }
 
+        //Из таблицы копируется значение выбранной строкии и приводится к экземпляру rec_form, файл удаляется и создаётся заново, варианты с совпадающим id не записываются
         public static void delete_rec (in OpenFileDialog opf, ref DataGrid myGrid)
         {
             try
             {
-                int selected_Row = myGrid.SelectedIndex;
+                var row_data = (rec_form)myGrid.SelectedItem;
                 string[] file = File.ReadAllLines(opf.FileName);
+                string[] parsed_row;
                 File.Delete(opf.FileName);
                 File.Create(opf.FileName).Close();
                 for (int i = 0; file.Length != i; i++)
                 {
-                    if (selected_Row != i)
+                    parsed_row = file[i].Split('&');
+                    if (row_data.id != parsed_row[5] )
                         File.AppendAllText(opf.FileName, file[i] + Environment.NewLine);
                 }
             }
@@ -185,6 +216,59 @@ namespace _2_Семестр_6_Лабораторная
             }
         }
 
+
+        public static void search_recs (in OpenFileDialog opf, ref DataGrid myGrid)
+        {
+            string[] file = File.ReadAllLines(opf.FileName);
+            string[] file_parsed;
+            Window1.return_data_insert(in opf , out string result_string , out bool flag);
+            string[] result_string_parsed = result_string.Split('&');
+            List<rec_form> searh_list = new List<rec_form>();
+            rec_form record = new rec_form();
+
+            if(flag == true)
+            {
+                for (int i = 0; file.Length != i; i++)
+                {
+                    file_parsed = file[i].Split('&');
+                    if (file_parsed[0].Contains(result_string_parsed[0]) || file_parsed[1].Contains(result_string_parsed[1]) || file_parsed[2].Contains(result_string_parsed[2]) || file_parsed[3].Contains(result_string_parsed[3]) || file_parsed[4].Contains(result_string_parsed[4]) )
+                    {
+                        record.send_number = file_parsed[0];
+                        record.send_weight = file_parsed[1];
+                        record.cost = file_parsed[2];
+                        record.sending_date = file_parsed[3];
+                        record.deliv_point = file_parsed[4];
+                        record.id = file_parsed[5];
+                        searh_list.Add(record);
+                    }
+                    myGrid.ItemsSource = null;
+                    myGrid.ItemsSource = searh_list;
+                }
+            }
+        }
+
+        public static void calc_cost (in OpenFileDialog opf )
+        {
+            Window2.return_user_insert(out DateTime start, out DateTime finish, out bool flag);
+            if (flag == true)
+            {
+                string[] file = File.ReadAllLines(opf.FileName);
+                string[] split_row;
+                int result_summ = 0 ;
+
+                for (int i = 0; file.Length  != i; i++)
+                {
+                    split_row = file[i].Split('&');
+                    if(DateTime.Compare(start,DateTime.Parse(split_row[3])) <= 0 && DateTime.Compare(finish,DateTime.Parse(split_row[3])) >= 0)
+                    {
+                        result_summ += int.Parse(split_row[2]);
+                    }
+                }
+                MessageBox.Show($"В период с {start.ToShortDateString()} по {finish.ToShortDateString()} общая стоимость товаров равна:{result_summ}");
+            }
+        }
+
+
         // описание структуры одной записи в бд
         public struct rec_form
         {
@@ -193,6 +277,7 @@ namespace _2_Семестр_6_Лабораторная
             public string cost { get; set; }
             public string sending_date { get; set; }
             public string deliv_point { get; set; }
+            public string id { get; set; }
         }
     }
 }

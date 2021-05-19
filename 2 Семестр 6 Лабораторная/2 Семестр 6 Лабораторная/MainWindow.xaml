@@ -14,8 +14,8 @@
         <Button Content="Выбрать БД" HorizontalAlignment="Left" Margin="2,37,0,0" VerticalAlignment="Top" Width="102" Height="19" Click="Button_Click" Grid.ColumnSpan="2" />
         <Button Content="Добавить запись" HorizontalAlignment="Left" Margin="2,60,0,0" VerticalAlignment="Top" Width="102" RenderTransformOrigin="-0.637,-0.323" Height="19" Click="Button_Click_1" Grid.ColumnSpan="2"/>
         <Button Content="Обновить" HorizontalAlignment="Left" Margin="2,85,0,0" VerticalAlignment="Top" Width="102" Height="19" Grid.ColumnSpan="2" Click="Button_Click_2"/>
-        <Button Content="Button" HorizontalAlignment="Left" Margin="2,110,0,0" VerticalAlignment="Top" Width="102" Grid.ColumnSpan="2"/>
-        <Button Content="Button" HorizontalAlignment="Left" Margin="2,135,0,0" VerticalAlignment="Top" Width="102" RenderTransformOrigin="0.5,0.5" Grid.ColumnSpan="2"/>
+        <Button Content="Поиск" HorizontalAlignment="Left" Margin="2,110,0,0" VerticalAlignment="Top" Width="102" Grid.ColumnSpan="2" Click="Button_Click_3"/>
+        <Button Content="Цена посылок" HorizontalAlignment="Left" Margin="2,135,0,0" VerticalAlignment="Top" Width="102" RenderTransformOrigin="0.5,0.5" Grid.ColumnSpan="2" Height="21" Click="Button_Click_4"  />
         <DataGrid x:Name="myGrid" HorizontalAlignment="Left" Height="381" Margin="48.2,20,0,0" VerticalAlignment="Top" Width="644" RenderTransformOrigin="0.5,0.5" Grid.Column="1" IsReadOnly="True" CanUserReorderColumns="False" CanUserResizeColumns="False" CanUserSortColumns="False">
             <DataGrid.ContextMenu>
                 <ContextMenu>
