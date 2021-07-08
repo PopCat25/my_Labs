@@ -1,0 +1,37 @@
+C:\Users\MyPC\source\repos\2 Семестр 7 Лабораторная\2 Семестр 7 Лабораторная\bin\Debug\2 Семестр 7 Лабораторная.exe.config
+C:\Users\MyPC\source\repos\2 Семестр 7 Лабораторная\2 Семестр 7 Лабораторная\bin\Debug\2 Семестр 7 Лабораторная.exe
+C:\Users\MyPC\source\repos\2 Семестр 7 Лабораторная\2 Семестр 7 Лабораторная\bin\Debug\2 Семестр 7 Лабораторная.pdb
+C:\Users\MyPC\source\repos\2 Семестр 7 Лабораторная\2 Семестр 7 Лабораторная\obj\Debug\2 Семестр 7 Лабораторная.csprojAssemblyReference.cache
+C:\Users\MyPC\source\repos\2 Семестр 7 Лабораторная\2 Семестр 7 Лабораторная\obj\Debug\MainWindow.g.cs
+C:\Users\MyPC\source\repos\2 Семестр 7 Лабораторная\2 Семестр 7 Лабораторная\obj\Debug\App.g.cs
+C:\Users\MyPC\source\repos\2 Семестр 7 Лабораторная\2 Семестр 7 Лабораторная\obj\Debug\2 Семестр 7 Лабораторная_MarkupCompile.cache
+C:\Users\MyPC\source\repos\2 Семестр 7 Лабораторная\2 Семестр 7 Лабораторная\obj\Debug\2 Семестр 7 Лабораторная_MarkupCompile.lref
+C:\Users\MyPC\source\repos\2 Семестр 7 Лабораторная\2 Семестр 7 Лабораторная\obj\Debug\MainWindow.baml
+C:\Users\MyPC\source\repos\2 Семестр 7 Лабораторная\2 Семестр 7 Лабораторная\obj\Debug\2 Семестр 7 Лабораторная.g.resources
+C:\Users\MyPC\source\repos\2 Семестр 7 Лабораторная\2 Семестр 7 Лабораторная\obj\Debug\_2_Семестр_7_Лабораторная.Properties.Resources.resources
+C:\Users\MyPC\source\repos\2 Семестр 7 Лабораторная\2 Семестр 7 Лабораторная\obj\Debug\2 Семестр 7 Лабораторная.csproj.GenerateResource.cache
+C:\Users\MyPC\source\repos\2 Семестр 7 Лабораторная\2 Семестр 7 Лабораторная\obj\Debug\2 Семестр 7 Лабораторная.csproj.CoreCompileInputs.cache
+C:\Users\MyPC\source\repos\2 Семестр 7 Лабораторная\2 Семестр 7 Лабораторная\obj\Debug\2 Семестр 7 Лабораторная.exe
+C:\Users\MyPC\source\repos\2 Семестр 7 Лабораторная\2 Семестр 7 Лабораторная\obj\Debug\2 Семестр 7 Лабораторная.pdb
+C:\Users\MyPC\source\repos\2 Семестр 7 Лабораторная\2 Семестр 7 Лабораторная\bin\Debug\MaterialDesignColors.dll
+C:\Users\MyPC\source\repos\2 Семестр 7 Лабораторная\2 Семестр 7 Лабораторная\bin\Debug\MaterialDesignThemes.Wpf.dll
+C:\Users\MyPC\source\repos\2 Семестр 7 Лабораторная\2 Семестр 7 Лабораторная\bin\Debug\MaterialDesignColors.pdb
+C:\Users\MyPC\source\repos\2 Семестр 7 Лабораторная\2 Семестр 7 Лабораторная\bin\Debug\MaterialDesignThemes.Wpf.pdb
+C:\Users\MyPC\source\repos\2 Семестр 7 Лабораторная\2 Семестр 7 Лабораторная\bin\Debug\MaterialDesignThemes.Wpf.xml
+C:\Users\MyPC\source\repos\2 Семестр 7 Лабораторная\2 Семестр 7 Лабораторная\obj\Debug\2 Семестр 7 Лабораторная.csproj.CopyComplete
+C:\Users\MyPC\source\repos\2 Семестр 7 Лабораторная\2 Семестр 7 Лабораторная\bin\Debug\ControlzEx.dll
+C:\Users\MyPC\source\repos\2 Семестр 7 Лабораторная\2 Семестр 7 Лабораторная\bin\Debug\MahApps.Metro.dll
+C:\Users\MyPC\source\repos\2 Семестр 7 Лабораторная\2 Семестр 7 Лабораторная\bin\Debug\MaterialDesignThemes.MahApps.dll
+C:\Users\MyPC\source\repos\2 Семестр 7 Лабораторная\2 Семестр 7 Лабораторная\bin\Debug\Microsoft.Xaml.Behaviors.dll
+C:\Users\MyPC\source\repos\2 Семестр 7 Лабораторная\2 Семестр 7 Лабораторная\bin\Debug\ControlzEx.pdb
+C:\Users\MyPC\source\repos\2 Семестр 7 Лабораторная\2 Семестр 7 Лабораторная\bin\Debug\ControlzEx.xml
+C:\Users\MyPC\source\repos\2 Семестр 7 Лабораторная\2 Семестр 7 Лабораторная\bin\Debug\MahApps.Metro.pdb
+C:\Users\MyPC\source\repos\2 Семестр 7 Лабораторная\2 Семестр 7 Лабораторная\bin\Debug\MahApps.Metro.xml
+C:\Users\MyPC\source\repos\2 Семестр 7 Лабораторная\2 Семестр 7 Лабораторная\bin\Debug\MaterialDesignThemes.MahApps.pdb
+C:\Users\MyPC\source\repos\2 Семестр 7 Лабораторная\2 Семестр 7 Лабораторная\bin\Debug\Microsoft.Xaml.Behaviors.pdb
+C:\Users\MyPC\source\repos\2 Семестр 7 Лабораторная\2 Семестр 7 Лабораторная\bin\Debug\Microsoft.Xaml.Behaviors.xml
+C:\Users\MyPC\source\repos\2 Семестр 7 Лабораторная\2 Семестр 7 Лабораторная\obj\Debug\App.baml
+C:\Users\MyPC\source\repos\2 Семестр 7 Лабораторная\2 Семестр 7 Лабораторная\obj\Debug\Window1.g.cs
+C:\Users\MyPC\source\repos\2 Семестр 7 Лабораторная\2 Семестр 7 Лабораторная\obj\Debug\Window2.g.cs
+C:\Users\MyPC\source\repos\2 Семестр 7 Лабораторная\2 Семестр 7 Лабораторная\obj\Debug\Window1.baml
+C:\Users\MyPC\source\repos\2 Семестр 7 Лабораторная\2 Семестр 7 Лабораторная\obj\Debug\Window2.baml

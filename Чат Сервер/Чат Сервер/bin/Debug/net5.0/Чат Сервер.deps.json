@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v5.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v5.0": {
+      "Чат Сервер/1.0.0": {
+        "runtime": {
+          "Чат Сервер.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Чат Сервер/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

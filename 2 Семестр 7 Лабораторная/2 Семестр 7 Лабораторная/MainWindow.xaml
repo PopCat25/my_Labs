@@ -4,9 +4,13 @@
         xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:_2_Семестр_7_Лабораторная"
+        xmlns:materialDesign="http://materialdesigninxaml.net/winfx/xaml/themes"
         mc:Ignorable="d"
-        Title="MainWindow" Height="450" Width="800">
+        Title="MainWindow" Height="341.159" Width="248.697">
     <Grid>
-        
+        <Button Content="Написать" Margin="74,36,67.4,0" VerticalAlignment="Top" Height="27" Click="Button_Click"  />
+        <Button Content="История" Margin="74,68,67.4,0" VerticalAlignment="Top"  Height="27" Click="Button_Click_1"/>
+        <Label Content="login: alexeylinskijl@yandex.ru" HorizontalAlignment="Left" Margin="10,277,0,0" VerticalAlignment="Top" Height="24" Width="232"/>
+        <Button Content="Выход" HorizontalAlignment="Left" Margin="74,240,0,0" VerticalAlignment="Top" Width="101" Click="Button_Click_3"/>
     </Grid>
 </Window>

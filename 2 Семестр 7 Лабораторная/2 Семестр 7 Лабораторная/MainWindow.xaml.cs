@@ -20,9 +20,25 @@ namespace _2_Семестр_7_Лабораторная
     /// </summary>
     public partial class MainWindow : Window
     {
+
         public MainWindow()
         {
             InitializeComponent();
+        }
+
+        private void Button_Click(object sender, RoutedEventArgs e)
+        {
+                Window1.Send_letter();
+        }
+
+        private void Button_Click_1(object sender, RoutedEventArgs e)
+        {
+            Window2.Show_send_history();
+        }
+
+        private void Button_Click_3(object sender, RoutedEventArgs e)
+        {
+            this.Close();
         }
     }
 }

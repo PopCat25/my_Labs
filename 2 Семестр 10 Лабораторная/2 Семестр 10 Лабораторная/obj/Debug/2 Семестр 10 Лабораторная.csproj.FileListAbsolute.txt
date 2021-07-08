@@ -1,0 +1,15 @@
+C:\Users\MyPC\source\repos\2 Семестр 10 Лабораторная\2 Семестр 10 Лабораторная\bin\Debug\2 Семестр 10 Лабораторная.exe.config
+C:\Users\MyPC\source\repos\2 Семестр 10 Лабораторная\2 Семестр 10 Лабораторная\bin\Debug\2 Семестр 10 Лабораторная.exe
+C:\Users\MyPC\source\repos\2 Семестр 10 Лабораторная\2 Семестр 10 Лабораторная\bin\Debug\2 Семестр 10 Лабораторная.pdb
+C:\Users\MyPC\source\repos\2 Семестр 10 Лабораторная\2 Семестр 10 Лабораторная\obj\Debug\2 Семестр 10 Лабораторная.csproj.AssemblyReference.cache
+C:\Users\MyPC\source\repos\2 Семестр 10 Лабораторная\2 Семестр 10 Лабораторная\obj\Debug\MainWindow.g.cs
+C:\Users\MyPC\source\repos\2 Семестр 10 Лабораторная\2 Семестр 10 Лабораторная\obj\Debug\App.g.cs
+C:\Users\MyPC\source\repos\2 Семестр 10 Лабораторная\2 Семестр 10 Лабораторная\obj\Debug\2 Семестр 10 Лабораторная_MarkupCompile.cache
+C:\Users\MyPC\source\repos\2 Семестр 10 Лабораторная\2 Семестр 10 Лабораторная\obj\Debug\2 Семестр 10 Лабораторная_MarkupCompile.lref
+C:\Users\MyPC\source\repos\2 Семестр 10 Лабораторная\2 Семестр 10 Лабораторная\obj\Debug\MainWindow.baml
+C:\Users\MyPC\source\repos\2 Семестр 10 Лабораторная\2 Семестр 10 Лабораторная\obj\Debug\2 Семестр 10 Лабораторная.g.resources
+C:\Users\MyPC\source\repos\2 Семестр 10 Лабораторная\2 Семестр 10 Лабораторная\obj\Debug\_2_Семестр_10_Лабораторная.Properties.Resources.resources
+C:\Users\MyPC\source\repos\2 Семестр 10 Лабораторная\2 Семестр 10 Лабораторная\obj\Debug\2 Семестр 10 Лабораторная.csproj.GenerateResource.cache
+C:\Users\MyPC\source\repos\2 Семестр 10 Лабораторная\2 Семестр 10 Лабораторная\obj\Debug\2 Семестр 10 Лабораторная.csproj.CoreCompileInputs.cache
+C:\Users\MyPC\source\repos\2 Семестр 10 Лабораторная\2 Семестр 10 Лабораторная\obj\Debug\2 Семестр 10 Лабораторная.exe
+C:\Users\MyPC\source\repos\2 Семестр 10 Лабораторная\2 Семестр 10 Лабораторная\obj\Debug\2 Семестр 10 Лабораторная.pdb
